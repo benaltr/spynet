@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "URL Tracker Extension",
+    "version": "1.0",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+    ]
+  }
